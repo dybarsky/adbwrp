@@ -1,0 +1,1 @@
+complete -W 'config start purge reset creds login' gmd
