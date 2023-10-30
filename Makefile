@@ -2,7 +2,7 @@
 # Created	17.04.2023
 
 BIN_NAME = gmd
-APP_HOME = ~/.adbwrp1
+APP_HOME = ~/.adbwrp
 
 help:
 	@echo "\
@@ -26,7 +26,7 @@ installLinux:
 	cp build/bin/linuxX64/releaseExecutable/adbwrp.kexe $(HOME)/.local/bin/$(BIN_NAME)
 
 installOsx:
-	cp build/bin/macosArm64/releaseExecutable/adbwrp.kexe $(HOME)/.local/bin/$(BIN_NAME)
+	cp build/bin/macosArm64/releaseExecutable/adbwrp.kexe /opt/bin/$(BIN_NAME)
 
 init:
 	# config files
