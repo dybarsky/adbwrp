@@ -1,3 +1,6 @@
+@file:OptIn(ExperimentalForeignApi::class)
+
+import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.refTo
 import kotlinx.cinterop.toKString
 import okio.FileSystem

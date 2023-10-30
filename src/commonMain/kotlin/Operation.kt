@@ -58,10 +58,10 @@ class Login(
         val (username, password) = creds[index]
         // click login button
         "$adb shell input tap 540 2146".exec()
-        sleep(1)
+        sleep(1u)
         // click email text field
         "$adb shell input tap 540 1135".exec()
-        sleep(1)
+        sleep(1u)
         // input credentials
         "$adb shell input text $username".exec()
         "$adb shell input keyevent 61".exec()
